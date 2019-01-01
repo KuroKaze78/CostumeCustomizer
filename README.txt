@@ -1,5 +1,5 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.3
+Version: v1.3.1
 Released: 11/10/2018
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
@@ -48,6 +48,9 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.3.1 - (12/2/2018)
+Changed packaging structure so installation is just extract main zip/patch into root of DOAXVV game folder.
+
 v1.3 - (11/10/2018)
 New menu graphics provided by IceTree5
 Split Chest into 2 secions (backwards compatible with the original 1 replacement)
