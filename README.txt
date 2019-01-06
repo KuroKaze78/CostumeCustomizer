@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.3.1
-Released: 11/10/2018
+Version: v1.4
+Released: 1/6/2019
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -8,7 +8,7 @@ Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-fram
 ***************
 * Description *
 ***************
-This mod allows you to mix-and-match portions of suits that have been provided by the CostumeCustomizer mod-packs you've included. It replaces the Black/Red Bikini w/ Pareo R suit. It uses a 2D overlay menu to customize your outfit to your liking.
+This mod allows you to mix-and-match portions of suits that have been provided by the CostumeCustomizer mod-packs you've included. It replaces the Takao R suit (Black/Red Bikini w/ Pareo). It uses a 2D overlay menu to customize your outfit to your liking.
 
 ***************
 * How to Use  *
@@ -48,6 +48,12 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.4 - (1/6/2019)
+Cleaned up logic for "else if", added support for persist variables so now the current outfit will maintain between play sessions. Currently still compatible with CCModPackGenerator v1.0.1.
+
+v1.3.2 - (1/4/2019)
+Fixed compatibility to work with the DOAXVV base mod v19. 
+
 v1.3.1 - (12/2/2018)
 Changed packaging structure so installation is just extract main zip/patch into root of DOAXVV game folder.
 
