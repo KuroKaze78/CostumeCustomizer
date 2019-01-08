@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.4
-Released: 1/6/2019
+Version: v1.5
+Released: 1/8/2019
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -48,6 +48,9 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.5 - (1/8/2019)
+Added Skin and Tan Texture support. Skin Textures are per character. Tan Textures are overlayed together between all of them without regards as to what sections are actually used by the clothing, therefore only block tanning for the current piece you are dealing with. (Example: gloves should only block tanning for the arms in the arms tan texture, and bikini top sould only block tanning for the bikini top in the breast tan texture). Also all body meshes must maintain the same UV for TEXCOORD1.zw which is used for the the tanning UV.
+
 v1.4 - (1/6/2019)
 Cleaned up logic for "else if", added support for persist variables so now the current outfit will maintain between play sessions. Currently still compatible with CCModPackGenerator v1.0.1.
 
