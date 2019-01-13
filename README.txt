@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
 Version: v1.5
-Released: 1/8/2019
+Released: 1/13/2019
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -8,7 +8,7 @@ Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-fram
 ***************
 * Description *
 ***************
-This mod allows you to mix-and-match portions of suits that have been provided by the CostumeCustomizer mod-packs you've included. It replaces the Takao R suit (Black/Red Bikini w/ Pareo). It uses a 2D overlay menu to customize your outfit to your liking.
+This mod allows you to mix-and-match portions of suits that have been provided by the CostumeCustomizer mod-packs you've included. It replaces the Takao R Suit (Black/Red Bikini w/ Pareo). It uses a 2D overlay menu to customize your outfit to your liking.
 
 ***************
 * How to Use  *
@@ -48,14 +48,11 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
-v1.5 - (1/8/2019)
-Added Skin and Tan Texture support. Skin Textures are per character. Tan Textures are overlayed together between all of them without regards as to what sections are actually used by the clothing, therefore only block tanning for the current piece you are dealing with. (Example: gloves should only block tanning for the arms in the arms tan texture, and bikini top sould only block tanning for the bikini top in the breast tan texture). Also all body meshes must maintain the same UV for TEXCOORD1.zw which is used for the the tanning UV.
+v1.5 - (1/13/2019)
+Added support for custom Tan textures and skin textures per body mesh. Skin Textures are per character skin, (which means there will need to be a minor update for each new character added). However Misaki and Kasumi use the same skin, so those will still be shared. Custom Default Constant Buffer support is also added. This allows altering several properties used in the pixel shader including minor color manipulation, Specular Color, and Fresnel. Some properties may be deprecated when it becomes more apparent whether they should be allowed to be overridden or whether they should stay the value they are in game.
 
 v1.4 - (1/6/2019)
 Cleaned up logic for "else if", added support for persist variables so now the current outfit will maintain between play sessions. Currently still compatible with CCModPackGenerator v1.0.1.
-
-v1.3.2 - (1/4/2019)
-Fixed compatibility to work with the DOAXVV base mod v19. 
 
 v1.3.1 - (12/2/2018)
 Changed packaging structure so installation is just extract main zip/patch into root of DOAXVV game folder.
