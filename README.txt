@@ -48,6 +48,9 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.5.1 - (1/14/2019)
+Fixed issue with multiple characters on screen at the same time.
+
 v1.5 - (1/13/2019)
 Added support for custom Tan textures and skin textures per body mesh. Skin Textures are per character skin, (which means there will need to be a minor update for each new character added). However Misaki and Kasumi use the same skin, so those will still be shared. Custom Default Constant Buffer support is also added. This allows altering several properties used in the pixel shader including minor color manipulation, Specular Color, and Fresnel. Some properties may be deprecated when it becomes more apparent whether they should be allowed to be overridden or whether they should stay the value they are in game.
 
