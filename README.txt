@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.5
-Released: 1/13/2019
+Version: v1.6
+Released: 4/26/2019
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -48,6 +48,9 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.6 - (4/26/2019)
+Added support for Kanna skin overrides. Switched Custom Shaders to Global ShaderRegex. This is to fix an issue regarding shadows not being applied to the alpha-enabled clothing drawn from custom shaders. I couldn't seem to find a different way to fix it while still using custom shaders so this is the result. This does mean that all other draw calls will be subject to the Shader modification. The modification replaces the cb2 buffer for the cb12 buffer for most pieces except for a handful of items that were determined to be dynamic based on the scene. Those items will be derived from the original cb2 buffer.
+
 v1.5.1 - (1/14/2019)
 Fixed issue with multiple characters on screen at the same time.
 
