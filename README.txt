@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.7
-Released: 8/18/2019
+Version: v1.8
+Released: 2/7/2020
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -48,6 +48,9 @@ While mouse is hovering over an item:
 ***************
 * Change Log  *
 ***************
+v1.8 - (2/20/2020)
+Added support for Sayuri skin overrides. PS1 and PS2 textures now default to emtpy normal and specular maps so there shouldn't be any issues for shaders if they aren't overridden in a ModPack.
+
 v1.7 - (8/18/2019)
 Added support for Monica skin overrides. Corrected keybindings so selecting option 11/12 are done using the -/+ on the number row rather than NUMPAD.
 
