@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.8
-Released: 2/7/2020
+Version: v1.9
+Released: 3/1/2020
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -16,10 +16,16 @@ This mod allows you to mix-and-match portions of suits that have been provided b
 Have the correct swimsuit displayed on-screen before attempting to use any of the keyboard shortcuts.
 
 Keyboard Shortcuts:
-F3 - Toggle Clothing Menu
+F3 - Cycle Clothing Menu*
+
+Note*: If multiple different model-types are available to customize clothing, the F3 button will cycle between each currently on-screen model type and off
+  - Common Body Type Customization menu
+  - Honoka Body Type Customization menu
+  - Marie Rose Body Type Customization menu
+  - Menu Off
 
 With menu open:
-CTRL + ` (backtick)  Switch to preset menu
+` (backtick)         Switch to preset menu
 CTRL + 1             Switch to Shirts/Dresse menu
 CTRL + 2             Switch to Bra menu
 CTRL + 3             Switch to Panty menu
@@ -31,23 +37,40 @@ CTRL + 8             Switch to Accessory 2 menu
 CTRL + 9             Switch to Accessory 3 menu
 CTRL + 0             Switch to Accessory 4 menu
 
+Choosing the same category as the current category will cycle between the available pages of options:
+  - Mod Packs 1-24
+  - Mod Packs 25-48
+  - Mod Packs 49-72
+  - Mod Packs 73-96
+
 While mouse is hovering over an item:
-1     Wear option 1
-2     Wear option 2
-3     Wear option 3
-4     Wear option 4
-5     Wear option 5
-6     Wear option 6
-7     Wear option 7
-8     Wear option 8
-9     Wear option 9
-0     Wear option 10
--     Wear option 11
-=     Wear option 12
+1          Wear option 1
+2          Wear option 2
+3          Wear option 3
+4          Wear option 4
+5          Wear option 5
+6          Wear option 6
+7          Wear option 7
+8          Wear option 8
+9          Wear option 9
+0          Wear option 10
+Shift + 1  Wear option 11
+Shift + 2  Wear option 12
+Shift + 3  Wear option 13
+Shift + 4  Wear option 14
+Shift + 5  Wear option 15
+Shift + 6  Wear option 16
+Shift + 7  Wear option 17
+Shift + 8  Wear option 18
+Shift + 9  Wear option 19
+Shift + 0  Wear option 20
 
 ***************
 * Change Log  *
 ***************
+v1.9 - (3/1/2020)
+Expanded maximum number of available mod-packs to 96 from 24 and implemented pages to cycle between each group of 24. Switching category will display mod-packs 1-24, pressing the key command for that same category will cycle to the next page up to page and loop around (pages: 1-24, 25-48, 49-72, 73-96). Fixed an issue with the preview display of Mod-Pack 3. Fixed an issue with extremity clothing shadows not casting properly. Consolidated key commands and deconflicted menu when multiple body-types are using CostumeCustomizer and the user attempts to utilize the menu (Pressing F3 will cycle between customization menus currently available on screen). Increased available options and adjusted keyboard shortcuts. Preset category hotkey changed to backtick (`) with any modifier as CTRL+` doesn't function with the Japanese IME active.
+
 v1.8 - (2/20/2020)
 Added support for Sayuri skin overrides. PS1 and PS2 textures now default to emtpy normal and specular maps so there shouldn't be any issues for shaders if they aren't overridden in a ModPack.
 
