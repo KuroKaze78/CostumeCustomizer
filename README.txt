@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.9
-Released: 3/1/2020
+Version: v1.9.1
+Released: 3/4/2020
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -68,6 +68,9 @@ Shift + 0  Wear option 20
 ***************
 * Change Log  *
 ***************
+v1.9.1 - (3/4/2020)
+Fixed issue with presets not saving properly with up-to-date Mod-Pack INI logic.
+
 v1.9 - (3/1/2020)
 Expanded maximum number of available mod-packs to 96 from 24 and implemented pages to cycle between each group of 24. Switching category will display mod-packs 1-24, pressing the key command for that same category will cycle to the next page up to page and loop around (pages: 1-24, 25-48, 49-72, 73-96). Fixed an issue with the preview display of Mod-Pack 3. Fixed an issue with extremity clothing shadows not casting properly. Consolidated key commands and deconflicted menu when multiple body-types are using CostumeCustomizer and the user attempts to utilize the menu (Pressing F3 will cycle between customization menus currently available on screen). Increased available options and adjusted keyboard shortcuts. Preset category hotkey changed to backtick (`) with any modifier as CTRL+` doesn't function with the Japanese IME active.
 
