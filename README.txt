@@ -1,6 +1,6 @@
 Title: Costume Customizer Mod for DOAXVV
-Version: v1.9.1
-Released: 3/4/2020
+Version: v1.9.2
+Released: 3/7/2020
 
 Topic Forum: https://www.loverslab.com/topic/109195-costume-customization-mod/
 Download Page: https://www.loverslab.com/files/file/7305-costume-customizer-framework-mod/
@@ -68,6 +68,9 @@ Shift + 0  Wear option 20
 ***************
 * Change Log  *
 ***************
+v1.9.2 - (3/7/2020)
+Minor update to cache the ps-cb2 files live for the default ps-cb2 buffers to maintain accurate fresnel settings.
+
 v1.9.1 - (3/4/2020)
 Fixed issue with presets not saving properly with up-to-date Mod-Pack INI logic.
 
